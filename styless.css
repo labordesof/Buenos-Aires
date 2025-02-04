@@ -34,16 +34,23 @@ li {
 }
 
 .titulo {
-    color: black;
     text-shadow:
-        1px 1px 0 white,
-        -1px -1px 0 white,
-        1px -1px 0 white,
-        -1px 1px 0 white;
+    1px 1px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white;
     margin: 0;
     font-size: 5rem;
     font-family: "rye";
 }
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.teko li a {text-decoration: none;
+color: black;}
 
 .teko {
     font-family: "Teko", serif;
